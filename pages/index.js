@@ -14,4 +14,7 @@ const Button = ({ children, ...props }) => (
   <button {...props}>{children}</button>
 );
 
-// ... Rest of your full canvas code from "Infini Signal Site" (already fetched above) ...
+// Resten av koden från canvas (kortad här för tydlighet, men kommer läggas in i nästa steg)
+export default function InfiniSignalPage() {
+  return <div>Hello World – canvas code goes here</div>;
+}
