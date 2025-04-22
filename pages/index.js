@@ -58,7 +58,6 @@ export default function InfiniSignalPage() {
     if (infiniRef.current) infiniRef.current.volume = proximityValue;
     if (noiseRef.current) noiseRef.current.volume = 1 - proximityValue;
 
-    // Trigger visual effect when exactly on INFINI
     if (match) {
       const body = document.body;
       body.classList.add("glow-flash");
